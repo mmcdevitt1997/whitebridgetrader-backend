@@ -1,3 +1,9 @@
 from django.shortcuts import render
+import requests
 
-# Create your views here.
+def home(request):
+    response = requests.get('api url')
+    stocknews = response.json()
+    
+    for item in stocknews['data']:
+          item["news_url"]
