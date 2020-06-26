@@ -23,7 +23,7 @@ local_settings.py
 media/
 *.pid
 migrations
-.backend\backendapp\api\apikeys.py
+*.backend\backendapp\api\apikeys.py
 
 #These are the files that Joe S shared on slack to put in gitignore----
 
