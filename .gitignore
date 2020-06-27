@@ -23,7 +23,7 @@ local_settings.py
 media/
 *.pid
 migrations
-!apikeys.py
+apikeys.py
 #These are the files that Joe S shared on slack to put in gitignore----
 
 # Byte-compiled / optimized / DLL files
